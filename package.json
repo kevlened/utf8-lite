@@ -1,0 +1,38 @@
+{
+  "name": "utf8-lite",
+  "amdName": "utf8",
+  "version": "1.0.0",
+  "description": "Bare minimum isomorphic utf8 library",
+  "main": "dist/utf8-lite.js",
+  "browser": "dist/utf8-lite.umd.js",
+  "module": "dist/utf8-lite.es.js",
+  "scripts": {
+    "dev": "microbundle watch",
+    "build": "microbundle",
+    "prepublish": "npm run build",
+    "test": "node test",
+    "release": "npm run build && npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+  },
+  "keywords": [
+    "utf-8",
+    "utf8",
+    "encode",
+    "decode"
+  ],
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevlened/utf8-lite.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevlened/utf8-lite/issues"
+  },
+  "homepage": "https://github.com/kevlened/utf8-lite#readme",
+  "devDependencies": {
+    "microbundle": "^0.2.4"
+  }
+}
