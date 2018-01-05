@@ -2,16 +2,16 @@
   "name": "utf8-lite",
   "amdName": "utf8",
   "version": "1.0.1",
-  "description": "Bare minimum isomorphic utf8 library",
+  "description": "isomorphic utf8 library in 132 bytes",
   "main": "dist/utf8-lite.js",
   "browser": "dist/utf8-lite.umd.js",
   "module": "dist/utf8-lite.es.js",
   "scripts": {
-    "dev": "microbundle watch",
     "build": "microbundle",
     "prepublish": "npm run build",
+    "pretest": "npm run build",
     "test": "node test",
-    "release": "npm run build && npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
+    "release": "npm test && git commit -am $npm_package_version && git tag $npm_package_version && git push && git push --tags && npm publish"
   },
   "keywords": [
     "utf-8",
