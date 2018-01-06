@@ -22,7 +22,7 @@ utf8.decode('hello \xE4\xBD\xA0\xE5\xA5\xBD')
 If you use ES6 imports with tree-shaking, yes! The caveat is you have to change how you import until [some issues get sorted out in bundlers](https://github.com/stereobooster/package.json/issues/2).
 
 ```javascript
-import { encode } from 'utf8-lite/dist/utf8-lite.es.js'
+import { encode } from 'utf8-lite/dist/utf8-lite.mjs'
 ```
 
 ## License

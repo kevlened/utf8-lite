@@ -5,7 +5,7 @@
   "description": "isomorphic utf8 library in 132 bytes",
   "main": "dist/utf8-lite.js",
   "browser": "dist/utf8-lite.umd.js",
-  "module": "dist/utf8-lite.es.js",
+  "module": "dist/utf8-lite.mjs",
   "scripts": {
     "build": "microbundle",
     "prepublish": "npm run build",
