@@ -19,10 +19,10 @@ utf8.decode('hello \xE4\xBD\xA0\xE5\xA5\xBD')
 
 ## Can it be smaller?
 
-If you use ES6 imports with tree-shaking, yes! The caveat is you have to change how you import until [some issues get sorted out in bundlers](https://github.com/stereobooster/package.json/issues/2).
+If you use ES6 imports with a bundler that supports tree-shaking, yes!
 
 ```javascript
-import { encode } from 'utf8-lite/dist/utf8-lite.mjs'
+import { encode } from 'utf8-lite'
 ```
 
 ## License
