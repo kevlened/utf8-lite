@@ -4,7 +4,3 @@ export function encode(s) {
 export function decode(s) {
   return decodeURIComponent(escape(s))
 }
-export default {
-  encode,
-  decode
-}

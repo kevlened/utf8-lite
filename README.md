@@ -1,5 +1,5 @@
 # utf8-lite [![NPM](https://img.shields.io/npm/v/utf8-lite.svg)](https://npmjs.com/package/utf8-lite) [![Build](https://travis-ci.org/kevlened/utf8-lite.svg?branch=master)](https://travis-ci.org/kevlened/utf8-lite)
-isomorphic utf8 library in 132 bytes
+isomorphic utf8 library in 106 bytes
 
 ## Install
 
