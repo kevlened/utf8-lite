@@ -1,6 +1,6 @@
-export function encode(s) {
+export function toUtf8(s) {
   return unescape(encodeURIComponent(s))
 }
-export function decode(s) {
+export function fromUtf8(s) {
   return decodeURIComponent(escape(s))
 }
