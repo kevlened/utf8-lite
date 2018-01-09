@@ -1,7 +1,7 @@
 {
   "name": "utf8-lite",
   "amdName": "utf8Lite",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "isomorphic utf8 library in 113 bytes",
   "main": "dist/utf8-lite.js",
   "module": "dist/utf8-lite.mjs",
